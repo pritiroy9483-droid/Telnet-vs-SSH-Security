@@ -1,21 +1,20 @@
 Comparative Security Analysis of Telnet and SSH Using Network Traffic Capture
 
-PROJECT OVERVIEW
+* PROJECT OVERVIEW
+
 This project focuses on the comparative security analysis of Telnet and SSH
 protocols using network traffic capture techniques. The objective of this
 project is to demonstrate how Telnet transmits data in plain text, making it
 vulnerable to packet sniffing attacks, while SSH provides secure and encrypted
 communication.
-
 The experiment is performed in a controlled environment using Kali Linux and
 Wireshark. Network packets are captured during Telnet and SSH login sessions
 and analysed to observe the visibility of credentials and commands.
-
 Through this practical analysis, the project highlights why Telnet is
 considered insecure and why SSH is widely used as a secure remote access
 protocol in modern cyber security environments.
 
-OBJECTIVES
+* OBJECTIVES
 To configure and demonstrate Telnet service on a Kali Linux system
 To capture Telnet traffic using Wireshark
 To analyse plain-text transmission of usernames, passwords, and commands
@@ -24,7 +23,7 @@ To capture and analyse encrypted SSH traffic
 To perform a comparative security analysis of Telnet and SSH
 To simulate a real-world network sniffing attack scenario
 
-LAB ENVIRONMENT
+* LAB ENVIRONMENT
 
 SERVER MACHINE
       operting system: kali linux
@@ -39,26 +38,24 @@ SERVER MACHINE
         ssh client
         wireshark
 
-  METHODOLOGY
+  *METHODOLOGY
   Telnet service was configured and activated on the Kali Linux system
 Network traffic was captured during Telnet login and command execution
 Packet analysis confirmed that credentials and commands were visible in plain text
 SSH service was configured and activated on the same system
-SSH traffic was captured using Wireshark
-Packet analysis showed encrypted and unreadable payload data
+SSH traffic was captured using Wireshark Packet analysis showed encrypted and unreadable payload data
 A comparative analysis was performed to highlight security differences
 
-OBSERVATIONS AND RESULTS
+*OBSERVATIONS AND RESULTS
 
 Telnet transmits usernames, passwords, and commands in plain text
-Telnet traffic can be easily sniffed by an attacker
-SSH encrypts all communication, preventing data disclosure
+Telnet traffic can be easily sniffed by an attackerSSH encrypts all communication, preventing data disclosure
 SSH packets do not reveal sensitive information even when captured
 
-CONCLUSION
+*CONCLUSION
 The experiment proves that Telnet is highly vulnerable to network sniffing attacks, while SSH provides strong security through encryption. This analysis highlights the critical role of secure protocols in modern network security.
 
-AUTHOR
+* AUTHOR
 
 PRITI KUMARI
 B.TECH CYBERSECURITY STUDENT
