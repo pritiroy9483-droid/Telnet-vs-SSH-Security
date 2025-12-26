@@ -15,23 +15,27 @@ considered insecure and why SSH is widely used as a secure remote access
 protocol in modern cyber security environments.
 
 * OBJECTIVES
-To configure and demonstrate Telnet service on a Kali Linux system
-To capture Telnet traffic using Wireshark
-To analyse plain-text transmission of usernames, passwords, and commands
-To configure and demonstrate SSH service on the same system
-To capture and analyse encrypted SSH traffic
-To perform a comparative security analysis of Telnet and SSH
-To simulate a real-world network sniffing attack scenario
+  
+ 1 To configure and demonstrate Telnet service on a Kali Linux system
+
+ 2 To capture Telnet traffic using Wireshark
+3 To analyse plain-text transmission of usernames, passwords, and commands
+4 To configure and demonstrate SSH service on the same system
+ 5 To capture and analyse encrypted SSH traffic
+6 To perform a comparative security analysis of Telnet and SSH
+7To simulate a real-world network sniffing attack scenario
 
 * LAB ENVIRONMENT
 
 SERVER MACHINE
-      operting system: kali linux
-      services
+    1  operting system: kali linux
+    
+    2 servies
          TELNET(in.telnetd)
          openSSH (sshd)
 
   ATTACKER MACHINE
+  
      host machine (windows/ linux)
      TOOL USE
         telnet client
@@ -57,8 +61,10 @@ The experiment proves that Telnet is highly vulnerable to network sniffing attac
 
 * AUTHOR
 
-PRITI KUMARI
-B.TECH CYBERSECURITY STUDENT
-RUNGTA COLLEGE OF ENGINEERING AND TECHNOLOGY
+1PRITI KUMARI
+
+2 B.TECH CYBERSECURITY STUDENT
+
+3RUNGTA COLLEGE OF ENGINEERING AND TECHNOLOGY
 
 
